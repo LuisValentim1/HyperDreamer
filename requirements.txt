@@ -32,7 +32,7 @@ transformers
 xatlas
 trimesh
 PyMCubes
-pymeshlab==0.2.1 # which does not need GLIBC_2.25
+pymeshlab
 git+https://github.com/NVlabs/nvdiffrast/
 
 # for zero123

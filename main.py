@@ -39,7 +39,7 @@ if __name__ == '__main__':
     parser.add_argument('--decimate_target', type=int, default=5e4, help="target face number for mesh decimation")
 
     parser.add_argument('--dmtet', action='store_true', help="use dmtet finetuning")
-    parser.add_argument('--tet_grid_size', type=int, default=256, help="tet grid size")
+    parser.add_argument('--tet_grid_size', type=int, default=128, help="tet grid size")
     parser.add_argument('--init_with', type=str, default='', help="ckpt to init dmtet")
     parser.add_argument('--lock_geo', action='store_true', help="disable dmtet to learn geometry")
 
